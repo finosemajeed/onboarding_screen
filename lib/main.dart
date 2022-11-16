@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:onboard_screen/Home_page.dart';
+import 'package:flutter/services.dart';
 
-
+import 'package:onboard_screen/onboarding_page.dart';
 
 void main() => runApp(App());
 
@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       title: 'Introduction screen',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: HomePage(),
+      home: OnBoardingPage(),
     );
   }
 }
