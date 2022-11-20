@@ -140,7 +140,7 @@ class OnBoardingPage extends StatelessWidget {
         ),
       ),
       // dotsContainerDecorator: const ShapeDecoration(
-      //   color: Colors.transparent,
+      //   color: Colors.yellow,
       //   shape: RoundedRectangleBorder(
       //     borderRadius: BorderRadius.all(Radius.circular(8.0)),
       //   ),
